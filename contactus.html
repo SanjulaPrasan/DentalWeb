@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light"> 
+        <a class="navbar-brand" href="index.html">
+            <img src="Images/logo.jpg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="showcase.html">Showcase</a>
+               </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact Us</a>
+                </li>
+                </ul>
+    </nav>
+<!--navigation bar-->  
+<!--cover-->
+    <div class="container-fluid">
+        <div class="intro text-center">
+            <h4>Your smile starts here.</h4>
+            <p>Get started at our Love Family Dental office in Adrian using the form below, or give us a call at (517)-263-1707 to chat with our helpful front office team—we’re cool with texting, too!</p>
+        </div>
+    </div>
+<!--cover-->
+<!--content-->
+    <div class="container-fluid">
+        <div class="row">
+<!--Form-->
+            <div class="col-12 col-lg-6 left">
+                <div class="form">
+                    <h3>REQUEST AN APPOINTMENT</h3>
+                    <form action="">
+                        <label for="fname" >First Name</label>
+                        <input type="text" class="form-control" id="fname" name="firstname">
+
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" id="lname" name="lastname">
+
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
+
+                        <label for="phone">Phone</label><br>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="123-1234-123" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" required>
+                        <br>
+                        <label class="reach">How should we reach you?</label>
+                        <small id="description" class="form-text text-muted">Let us know how to get back to you. We'll be in touch by the next business day.</small>
+                        <input type="radio" id="callme" name="choice">
+                        <span class="checkmark"></span>
+                        <small id="callme">Call me</small>
+                        <br>
+                        <input type="radio" id="textme" name="choice">
+                        <span class="checkmark"></span>
+                        <small class="textme">Text me</small>
+                        <br>
+                        <input type="radio" id="emailme" name="choice">
+                        <span class="checkmark"></span>
+                        <small class="emailme">Email me</small>
+                        <br>
+                        <hr>
+                        <label class="seen">Have we seen you before?</label>
+                        <small id="description" class="form-text text-muted">This helps us understand if this will be your first visit or a follow up appointment.</small>
+
+                        <input type="radio" id="new" name="choice2">
+                        <span class="checkmark"></span>
+                        <small class="new">I`m a new patient</small>
+                        <br>
+                        <input type="radio" id="old" name="choice2">
+                        <span class="checkmark"></span>
+                        <small class="old">I`m a returning patient</small>
+                        <br>
+                        <hr>
+                        
+                        <label for="message">Message</label><br>
+                        <textarea class="form-control" id="message" name="message" placeholder="You can leave this blank, or feel free to include any specific requests, comments, questions, or concern here" rows="4"></textarea>
+                        <br>
+
+                        <label for="how">How did you hear about us?</label><br>
+                        <select id="how" name="how">
+                        <option value="australia"></option>
+                        <option value="australia">Web Search</option>
+                        <option value="canada">Yelp</option>
+                        <option value="usa">Facebook</option>
+                        <option value="usa">Referral from friend/family</option>
+                        <option value="usa">Referral from another practice</option>
+                        <option value="usa">I saw an advertisement</option>
+                        <option value="usa">I`m a current patient</option>
+                        <option value="usa">Other</option>
+                        </select>
+                        <br>
+                        <a class="btn btn-outline-dark btn-lg">Submit</a>
+                    </form>
+                </div>
+<!--Form-->
+            </div>
+<!--map-->
+            <div class="col-12 col-lg-6 right">
+                <div class="map">
+                    <a href="https://www.google.lk/maps/place/Love+Family+Dental,+PC/@41.9116281,-84.0487576,17z/data=!3m1!4b1!4m5!3m4!1s0x883cf1c5a7b8503d:0x2d03dc2ba3bcd5c8!8m2!3d41.9116281!4d-84.0465689" target="_blank">
+                        <img src="Images/map.jpg" alt="map">
+                    </a>
+                </div>
+                <hr>
+<!--map-->
+<!--contact-->
+                <div class="contact">
+                    <h3>CONTACT INFORMATION</h3>
+                    <h4>Love Family Dental</h4>
+                    <p>689 Stockford Drive Adrian, </p>
+                    <p>MI, 49221</p>
+                    <p>Call or Text: <a href="callto:517-263-3134">(517)-263-1707</a></p>
+                </div>
+                <hr>
+<!--contact-->  
+<!--hours-->
+                <div class="hours">
+                    <h4>HOURS</h4>
+                    <p>Monday — 8am to 5pm</p>
+                    <p>Tuesday — 8am to 5pm</p>
+                    <p>Wednesday — 8am to 5pm</p>
+                    <p>Thursday — 8am to 5pm</p>
+                    <p>Friday — 8am to 12pm</p>
+                    <p>Saturday — Closed</p>
+                    <p></p>Sunday — Closed</p>
+                </div>
+                <hr>
+<!--hours-->
+<!--Emergency-->
+                <div class="emergency">
+                    <h4>EMERGENCIES</h4>
+                    <p>Call us for emergency dental treatment at our office in the 689 Stockford Drive Adrian</p>
+                </div>
+                <hr>
+<!--Emergency-->
+<!--parking-->
+                <div class="parking">
+                    <h4>PARKING </h4>
+                    <p>Parking is available in our building, Street parking is also available on two hour parking meters on each street surrounding our location.</p>
+                </div>
+<!--parking-->
+            </div>
+
+        </div>
+    </div>
+<!--content-->
+<!--footer-->
+    <footer>
+        <div class="container-fluid padding3">
+            <div class="text-center">
+                <h4>FOLLOW US</h4>
+                <div class="links">
+                    <a href="https://twitter.com/LoveFamilyDent" target="_blank">
+                        <img src="Images/twitter.png">
+                    </a>
+                    <a href="https://www.facebook.com/LoveFamilyDent/" target="_blank">
+                        <img src="Images/facebook.png">
+                    </a>
+                    <a href="https://plus.google.com/113285732387172320978?gl=us&hl=en" target="_blank">
+                        <img src="Images/g+.png">
+                    </a>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--footer-->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
